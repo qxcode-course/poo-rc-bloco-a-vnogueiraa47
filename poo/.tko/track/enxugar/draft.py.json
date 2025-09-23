@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2025-09-23_14-24-57",
+            "content": "@@ -1303,101 +1303,11 @@\n == %22\n-seca%22:%0A            print(%22sim%22 if towel.isDry() else %22n%C3%A3o%22 )%0A        elif args%5B0%5D == %22enxugar\n+dry\n %22:%0A \n",
+            "lines": "50"
+        },
+        {
+            "label": "2025-09-23_14-27-34",
+            "content": "class Towel:\n    def __init__(self, color: str, size: str): # construtor\n        self.color: str = color # atributos\n        self.size: str = size\n        self.wetness: int = 0\n    \n    def dry(self, amount: int) -> None:\n        self.wetness += amount\n        if self.wetness >= self.isMaxWetness():\n            self.wetness = self.isMaxWetness()\n            print(\"toalha saturada, ensopada, pingando\")\n\n    def wringOut(self):\n        self.wetness = 0\n\n    def isMaxWetness(self) -> int:\n        if self.size == \"P\": # early return\n            return 10\n        if self.size == \"M\":\n            return 20\n        if self.size == \"G\":\n            return 30\n        return 0 # default return\n\n    def __str__(self) -> str: # toString\n        return f\"Cor:{self.color}, Tamanho:{self.size}, Umidade:{self.wetness}\"\n\ndef main(): \n    towel: Towel = Towel(\"\", \"\") # 2: criar um obj com qq valor inicial\n    while True: # 3: loop infinito\n\n        line: str = input() # 4: perguntar ao usuario\n        print(\"$\" + line)\n        args: list[str] = line.split(\" \") # 5: separar argumentos\n\n        if args[0] == \"end\":\n            break\n        elif args[0] == \"criar\": # color size\n            color: str = args[1]\n            size: str = args[2]\n            towel = Towel(color, size)\n        elif args[0] == \"seca\":\n            print(\"sim\" if towel.isDry() else \"n\u00e3o\" )\n        elif args[0] == \"enxugar\":\n            amount: int = int(args[1])\n            towel.dry(amount)\n        elif args[0] == \"show\":\n            print(towel)\n        else: # 7: erro\n            print(\"fail: comando n\u00e3o encontrado\")\n\nmain() # passo 1\n",
+            "lines": "52"
+        }
+    ]
+}
