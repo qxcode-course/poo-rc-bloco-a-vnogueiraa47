@@ -8,7 +8,7 @@ class Towel:
         self.wetness += amount
         if self.wetness >= self.isMaxWetness():
             self.wetness = self.isMaxWetness()
-            print("toalha saturada, ensopada, pingando")
+            print("toalha saturada, enxarcada, pingando")
 
     def wringOut(self):
         self.wetness = 0
@@ -47,6 +47,6 @@ def main():
         elif args[0] == "show":
             print(towel)
         else: # 7: erro
-            print("fail: ")
+            print("fail: comando não encontrado")
 
 main() # passo 1
