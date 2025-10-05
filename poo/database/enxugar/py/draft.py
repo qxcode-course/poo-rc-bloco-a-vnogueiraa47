@@ -47,6 +47,6 @@ def main():
         elif args[0] == "show":
             print(towel)
         else: # 7: erro
-            print("fail: comando não encontrado")
+            print("fail: ")
 
 main() # passo 1
