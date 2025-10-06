@@ -1,0 +1,6 @@
+2025-10-06 00:56:51, MOVE, v:1, k:animal, mode:PICK
+2025-10-06 00:56:52, EXEC, v:1, k:animal, mode:FULL, rate:0, size:64
+2025-10-06 01:00:32, EXEC, v:1, k:animal, mode:FULL, rate:25, size:64
+2025-10-06 01:01:08, EXEC, v:1, k:animal, mode:FULL, rate:25, size:64
+2025-10-06 01:02:14, EXEC, v:1, k:animal, mode:FULL, rate:50, size:64
+2025-10-06 01:02:59, EXEC, v:1, k:animal, mode:FULL, rate:100, size:64

@@ -24,3 +24,19 @@
 2025-10-05 22:40:08, EXEC, v:1, k:enxugar, mode:FULL, rate:50
 2025-10-05 22:40:19, EXEC, v:1, k:enxugar, mode:FULL, rate:50, size:57
 2025-10-05 22:42:14, EXEC, v:1, k:enxugar, mode:FULL, rate:100, size:57
+2025-10-05 22:58:22, MOVE, v:1, k:enxugar, mode:PICK
+2025-10-05 23:00:33, SELF, v:1, k:enxugar, human:SIM, iagen:SIM, alone:5, study:120
+2025-10-05 23:01:18, SELF, v:1, k:enxugar, human:SIM, iagen:SIM, alone:5, study:120
+2025-10-05 23:04:09, SELF, v:1, k:enxugar, human:SIM, alone:5, study:120
+2025-10-05 23:11:31, SELF, v:1, k:enxugar, human:SIM, alone:10, study:120
+2025-10-05 23:14:23, SELF, v:1, k:enxugar, human:SIM, alone:10, study:120
+2025-10-05 23:14:26, MOVE, v:1, k:enxugar, mode:PICK
+2025-10-05 23:14:28, EXEC, v:1, k:enxugar, mode:FULL, rate:100
+2025-10-05 23:16:06, MOVE, v:1, k:animal, mode:PICK
+2025-10-05 23:31:39, SELF, v:1, k:enxugar, human:SIM, alone:10, study:120
+2025-10-05 23:32:51, MOVE, v:1, k:enxugar, mode:PICK
+2025-10-05 23:32:53, EXEC, v:1, k:enxugar, mode:FULL, rate:100
+2025-10-05 23:38:13, SELF, v:1, k:enxugar, human:SIM, alone:10, study:120
+2025-10-05 23:38:23, MOVE, v:1, k:enxugar, mode:PICK
+2025-10-05 23:38:25, EXEC, v:1, k:enxugar, mode:FULL, rate:100
+2025-10-05 23:45:16, MOVE, v:1, k:animal, mode:PICK
