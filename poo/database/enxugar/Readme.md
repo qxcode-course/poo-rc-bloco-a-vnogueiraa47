@@ -76,7 +76,7 @@ $end
 
 #TEST_CASE criação
 $criar verde G
-
+e
 $mostrar
 Cor: verde, Tamanho: G, Umidade: 0
 

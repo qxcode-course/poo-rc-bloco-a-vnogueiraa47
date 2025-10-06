@@ -11,7 +11,8 @@ expanded:
 tasks:
   toalha: '{rate:100, alone:10, study:40}'
   animal: '{rate:100, alone:10, study:40}'
-  carro: '{rate:100}'
+  carro: '{rate:100, alone:10, study:40}'
+  calculadora: '{rate:100}'
   enxugar: '{rate:100, human:SIM, alone:10, study:120}'
 flags:
   quests: 0
@@ -19,4 +20,4 @@ flags:
   tasks: 0
   graph: 0
   xray: 0
-index: carro
+index: calculadora
